@@ -46,3 +46,6 @@ Proyecto 1
    - @ModelAttribute permite que el método esté disponible para todo el controlador
    - Cualquier vista puede implementar el método
    - Nos ayuda a simplificar código
+10. **@RequestParam**: Permite capturar elementos desde la url
+    - Creamos un controller RequestParamController en el package controllers
+    - http://localhost:8080/requestParam/string?texto=Hola%20Mundo
