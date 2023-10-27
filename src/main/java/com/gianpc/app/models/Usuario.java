@@ -5,6 +5,22 @@ public class Usuario {
     private String apellidos;
     private String email;
 
+    // Construct
+    public Usuario() {
+    }
+
+    public Usuario(String nombre, String apellidos, String email) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.email = email;
+    }
+
+    public Usuario(String nombre, String apellidos) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+    }
+
+    // Getters and setters
     public String getNombre() {
         return nombre;
     }

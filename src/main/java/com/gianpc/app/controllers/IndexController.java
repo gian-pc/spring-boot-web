@@ -5,6 +5,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Controller
 public class IndexController {
 
@@ -24,5 +27,13 @@ public class IndexController {
         return "perfil";
     }
 
-
+    @GetMapping("/lista")
+    public String lista( Model model){
+        List<Usuario> usuarios = new ArrayList<>();
+        usuarios.add(new Usuario("Juan", "De Arco", "juna@gmail.com"));
+        usuarios.add(new Usuario("Diego", "Suarez", "diego@gmail.com"));
+        usuarios.add(new Usuario("Lea", "Jimenez"));
+        model.addAttribute("usuarios", usuarios);
+        return "lista";
+    }
 }

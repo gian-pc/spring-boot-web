@@ -32,3 +32,11 @@ Proyecto 1
 6. Usando directiva If
    - Agregamos el atributo email en Usuario
    - Agregamos la directiva If en perfil para mostrar email
+7. Trabajando con varios usuarios
+   - Generando un nuevo método "lista" en IndexController
+   - Creamos una lista "usuarios"
+   - Creamos los constructores en la clase Usuario
+   - Generamos los usuarios y enviamos a la lista
+   - Creamos lista.html
+   - Generamos un Bucle con th:each
+   - http://localhost:8080/lista
