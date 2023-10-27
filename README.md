@@ -21,3 +21,11 @@ Proyecto 1
 4. Enviando datos a una vista
    - Uso de la interfaz Model en IndexController
    - Uso de Thymeleaf en index
+5. Creación de un modelo(Usuario)
+   - Creación del package models
+   - Creación de la Clase Usuario
+   - Creamos el método perfil en IndexController
+   - Instanciamos Usuario en el método perfil
+   - Creamos perfil.html
+   - Enviamos los datos de usuario a la vista perfil
+   - http://localhost:8080/perfil
