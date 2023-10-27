@@ -51,3 +51,6 @@ Proyecto 1
     - http://localhost:8080/requestParam/string?texto=Hola%20Mundo
 11. **@RequestParam**: Con multiples valores
     - http://localhost:8080/requestParam/varios-tipos?texto=Hola%20Mundo&&numero=2023
+12. **@PathVariable**: Similar a RequestParam solo que con rutas "/"
+    - http://localhost:8080/pathVariable/string/Hola%20Gian
+    - http://localhost:8080/pathVariable/varios-tipos/hola/20
