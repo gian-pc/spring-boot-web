@@ -18,3 +18,6 @@ Proyecto 1
    - Rutas de primer Nivel: @RequestMapping
    - Creamos usuario/index.html
    - http://localhost:8080/usuario/index
+4. Enviando datos a una vista
+   - Uso de la interfaz Model en IndexController
+   - Uso de Thymeleaf en index

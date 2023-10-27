@@ -1,17 +1,17 @@
 package com.gianpc.app.controllers;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class IndexController {
-    @GetMapping({"/index","/principal","/"})
-    public String index(){
+
+    @GetMapping({"/index","/",""})
+    public String index(Model model){
+        model.addAttribute("titulo", "Mi Página Web :)");
         return "index";
     }
 
-    @GetMapping({"/home","/welcome","/casa"})
-    public String home(){
-        return "home";
-    }
+
 }
