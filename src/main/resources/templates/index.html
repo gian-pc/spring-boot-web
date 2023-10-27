@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Mi primera Web</title>
+    <link rel="stylesheet" th:href="@{/css/estilos.css}">
 </head>
 <body>
-<h1 th:text="${titulo}"></h1>
+<h1 class="rojo" th:text="${titulo}"></h1>
 <span th:if="${usuarios.isEmpty()}">No hay usuarios registrados</span>
 <table class="table table-hover table-striped" th:if="${!usuarios.isEmpty()}">
     <thead>
-    <tr>
+    <tr class="azul">
         <th>Nombre</th>
         <th>Apellidos</th>
         <th>Email</th>
@@ -26,5 +27,6 @@
     </tr>
     </tbody>
 </table>
+<img alt="imagen" th:src="@{/images/Certification.png}">
 </body>
 </html>

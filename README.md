@@ -54,3 +54,6 @@ Proyecto 1
 12. **@PathVariable**: Similar a RequestParam solo que con rutas "/"
     - http://localhost:8080/pathVariable/string/Hola%20Gian
     - http://localhost:8080/pathVariable/varios-tipos/hola/20
+13. **Agregando estilos**
+    - Estilos con css
+    - Agregando imágenes
