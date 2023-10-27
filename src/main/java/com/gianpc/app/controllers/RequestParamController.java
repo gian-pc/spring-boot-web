@@ -18,4 +18,11 @@ public class RequestParamController {
         return "requestParam/ver";
     }
 
+    @GetMapping("/varios-tipos")
+    public String param(@RequestParam(defaultValue = "No se encontró valor") String texto,@RequestParam(defaultValue = "0") Integer numero, Model model) {
+        model.addAttribute("texto", texto);
+        model.addAttribute("numero", numero);
+        return "requestParam/ver";
+    }
+
 }

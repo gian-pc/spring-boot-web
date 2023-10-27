@@ -49,3 +49,5 @@ Proyecto 1
 10. **@RequestParam**: Permite capturar elementos desde la url
     - Creamos un controller RequestParamController en el package controllers
     - http://localhost:8080/requestParam/string?texto=Hola%20Mundo
+11. **@RequestParam**: Con multiples valores
+    - http://localhost:8080/requestParam/varios-tipos?texto=Hola%20Mundo&&numero=2023
