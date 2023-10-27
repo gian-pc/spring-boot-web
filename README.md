@@ -42,3 +42,7 @@ Proyecto 1
    - http://localhost:8080/lista
 8. Configurando Bootstrap
    - Link: https://getbootstrap.com/
+9. @ModelAttribute
+   - @ModelAttribute permite que el método esté disponible para todo el controlador
+   - Cualquier vista puede implementar el método
+   - Nos ayuda a simplificar código

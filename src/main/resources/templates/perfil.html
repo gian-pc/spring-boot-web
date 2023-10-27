@@ -9,8 +9,9 @@
   <span th:text="${usuario.getNombre()}"></span>
   <span th:text="${usuario.getApellidos()}"></span>
   <br>
-  <span th:if="${usuario.email != null}" th:text="${usuario.email}"></span>
-  <span th:if="${usuario.email == null}">Sin Email</span>
+  <!--<span th:if="${usuario.email != null}" th:text="${usuario.email}"></span>
+  <span th:if="${usuario.email == null}">Sin Email</span>-->
+  <span th:text="${usuario.email}?:'Sin Email'"></span>
 
 </body>
 </html>
