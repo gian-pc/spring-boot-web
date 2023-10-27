@@ -57,3 +57,5 @@ Proyecto 1
 13. **Agregando estilos**
     - Estilos con css
     - Agregando imágenes
+14. **Resultado**
+    - ![lista.png](src%2Fmain%2Fresources%2Fstatic%2Fimages%2Flista.png)
