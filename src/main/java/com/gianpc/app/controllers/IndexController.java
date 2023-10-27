@@ -19,6 +19,7 @@ public class IndexController {
         Usuario usuario = new Usuario();
         usuario.setNombre("Gian");
         usuario.setApellidos("Paucar Cortez");
+        usuario.setEmail("gianpc@gmail.com");
         model.addAttribute("usuario", usuario);
         return "perfil";
     }

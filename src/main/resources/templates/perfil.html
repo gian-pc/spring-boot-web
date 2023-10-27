@@ -5,8 +5,12 @@
   <title>Mi primera Web</title>
 </head>
 <body>
+
   <span th:text="${usuario.getNombre()}"></span>
-  <br>
   <span th:text="${usuario.getApellidos()}"></span>
+  <br>
+  <span th:if="${usuario.email != null}" th:text="${usuario.email}"></span>
+  <span th:if="${usuario.email == null}">Sin Email</span>
+
 </body>
 </html>

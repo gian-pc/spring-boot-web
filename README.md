@@ -29,3 +29,6 @@ Proyecto 1
    - Creamos perfil.html
    - Enviamos los datos de usuario a la vista perfil
    - http://localhost:8080/perfil
+6. Usando directiva If
+   - Agregamos el atributo email en Usuario
+   - Agregamos la directiva If en perfil para mostrar email
