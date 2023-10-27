@@ -40,3 +40,5 @@ Proyecto 1
    - Creamos lista.html
    - Generamos un Bucle con th:each
    - http://localhost:8080/lista
+8. Configurando Bootstrap
+   - Link: https://getbootstrap.com/
